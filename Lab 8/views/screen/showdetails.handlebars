@@ -1,0 +1,37 @@
+<main>
+    <div>
+        <h1>{{show.name}}</h1>
+        <img alt={{show.name}} src={{show.image.medium}} class="img-style" />
+        <dl>
+            {{#if show.language.length}}
+            <dt>Language:</dt>
+            <dd class="lang">{{show.language}}</dd>{{/if}}
+
+            {{#if show.genres.length}}
+            <dt>Genres:</dt>
+            <dd>
+                <ul>
+                    {{#each show.genres}}
+                    <li>
+                        <a class="genre">{{.}}</a>
+                    </li>
+                    {{/each}}
+                </ul>
+            </dd>
+            {{/if}}
+
+            {{#if show.rating.average}}
+            <dt>Average Rating:</dt>
+            <dd class="rating">{{show.rating.average}}</dd> {{/if}}
+
+            {{#if show.network.name.length}}
+            <dt>Network:</dt>
+            <dd class="network">{{show.network.name}}</dd> {{/if}}
+
+            {{#if show.summary.length}}
+            <dt>Summary:</dt>
+            <dd class="summary">{{summary}}</dd> {{/if}}
+
+        </dl>
+    </div>
+</main>

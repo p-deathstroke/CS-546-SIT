@@ -1,0 +1,18 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "This is lab 6",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Preet Dabhi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.4",
+    "nodemon": "^2.0.7"
+  }
+}

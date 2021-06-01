@@ -1,0 +1,16 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "This is Lab 3 Assignment",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Preet Dabhi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "prompt": "^1.1.0"
+  }
+}

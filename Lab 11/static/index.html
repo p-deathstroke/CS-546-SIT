@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV MAZE API</title>
+    <link rel="stylesheet" href="/public/css/main.css">
+</head>
+
+
+<body>
+    <header>
+        <h1>TV MAZE API </h1>
+    </header>
+    <form id="searchForm">
+        <label for="search_term"></label>
+        <input type="text" id="search_term" name="input_search_term" placeholder="Enter search term">
+        <button id="submit-button" type="submit">Submit</button><br><br>
+        <h3 id="errormessage" hidden> Please provide a proper input.</h3>
+        <ul id="showList" hidden>
+
+        </ul>
+        <div id="show">
+
+        </div>
+        <a id="homeLink" href="/" hidden> Back to All Shows</a><br><br>
+    </form>
+    <footer>Preet Dabhi aka Deathstroke CWID : 10459151</footer>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="/public/js/script.js"></script>
+</body>
+
+</html>

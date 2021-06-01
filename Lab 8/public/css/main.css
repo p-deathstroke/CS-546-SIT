@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 14pt;
+}
+
+body {
+  background: #dedede;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+
+main {
+  max-width: 75%;
+  margin: auto;
+}
+
+header {
+  border-bottom: 1px solid #afafaf;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #222;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #622569;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-size: 1.15rem;
+}
+
+h6 {
+  font-size: 1.05rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 2;
+}
+label {
+  font-weight: bold;
+}
+.error {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.description {
+  color: #2aa31d;
+  font-weight: 900;
+}
+
+.showkeyword {
+  color: #6b5b95;
+  font-weight: bold;
+}
+
+.btn {
+  color: #034f84;
+  border-style: dashed;
+}
+
+.inputtext {
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+}
+
+.show-link :link {
+  color: #228b22;
+}
+
+.show-link:visited {
+  font-style: italic;
+  color: saddlebrown;
+}
+
+.show-link:hover {
+  font-style: normal;
+  font-weight: 700;
+}
+
+.show-link:active {
+  color: #ff0000;
+}
+
+.img-style {
+  border-style: dashed;
+}
+
+.genre {
+  color: #ff7b25;
+  font-weight: bold;
+}
+
+.lang {
+  color: #d64161;
+}
+
+.rating {
+  color: #86af49;
+  font-weight: bold;
+}
+
+.summary {
+  color: #034f84;
+}
+.network {
+  color: #4b0082;
+}
+
+.not-found {
+  color: #4b0082;
+  font-weight: bold;
+}

@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab-2",
+  "version": "1.0.0",
+  "description": "CS 546 Lab2 Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Preet Dabhi 10459151",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^1.1.0"
+  }
+}
